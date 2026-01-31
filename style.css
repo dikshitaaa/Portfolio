@@ -1,0 +1,119 @@
+/* style.css */
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Montserrat',sans-serif;line-height:1.6;background:#0f0f1a;color:white;scroll-behavior:smooth;}
+a{text-decoration:none;color:white;}
+nav{display:flex;justify-content:center;gap:30px;padding:20px;background:#716161;position:fixed;width:100%;top:0;z-index:100;}
+nav a{transition:0.3s;font-weight:600;}
+nav a:hover{color:#00ffff;}
+section{max-width:1000px;margin:100px auto;padding:0 20px;}
+h1,h2{color:#00ffff;}
+footer{text-align:center;padding:20px;background:#4c6d8f;margin-top:60px;}
+.card-container{display:flex;flex-wrap:wrap;gap:20px;}
+.card{background:rgba(255,255,255,0.05);flex:1 1 250px;padding:25px;border-radius:15px;text-align:center;transition:transform 0.5s,box-shadow 0.5s;}
+.card:hover{transform:translateY(-10px);box-shadow:0 0 40px rgba(0,255,255,0.6);}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Montserrat',sans-serif;
+  line-height:1.6;
+  background:#0f0f1a;
+  color:white;
+  scroll-behavior:smooth;
+}
+
+a{
+  text-decoration:none;
+  color:white;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:20px;
+  background:z#56718e;
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:100;
+}
+
+nav a{
+  font-weight:600;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#00ffff;
+}
+
+/* SECTIONS */
+section{
+  max-width:1000px;
+  margin:120px auto;
+  padding:0 20px;
+}
+
+h1,h2{
+  color:#00ffff;
+}
+
+/* CONTACT */
+.contact-list{
+  display:flex;
+  gap:40px;
+  margin-top:25px;
+}
+
+.contact-list a{
+  font-size:20px;
+  font-weight:600;
+  color:#00ffff;
+  transition:0.3s;
+}
+
+.contact-list a i{
+  margin-right:8px;
+  font-size:22px;
+}
+
+.contact-list a:hover{
+  color:white;
+  text-shadow:0 0 10px #00ffff;
+}
+
+/* CARDS (for other pages) */
+.card-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+}
+
+.card{
+  background:rgba(255,255,255,0.05);
+  flex:1 1 250px;
+  padding:25px;
+  border-radius:15px;
+  text-align:center;
+  transition:transform 0.5s, box-shadow 0.5s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 40px rgba(0,255,255,0.6);
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  background:#4c6d8f;
+  margin-top:60px;
+
+}
+
